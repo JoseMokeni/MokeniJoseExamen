@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/MSGestionAbonnements?createDatabaseIfNotExist=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root
+    password: "{cipher}b8bcf00226eb5d03bf33f26549865410aad3b8c80b59ffa456fb9e80868b82e8"
   jpa:
     hibernate:
       ddl-auto: create
