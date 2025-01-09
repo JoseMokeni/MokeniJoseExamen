@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/MSGestionAbonnement?createDatabaseIfNotExist=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/MSGestionAbonnements?createDatabaseIfNotExist=true&serverTimezone=UTC
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
